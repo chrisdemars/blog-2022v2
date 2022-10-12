@@ -3,7 +3,10 @@
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
- @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;900&family=Didact+Gothic&display=swap');
+
+// Global Styles
+
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600;900&family=Didact+Gothic&display=swap');
 
 body {
 	font-family: 'Commissioner', sans-serif;	margin: auto;
@@ -13,7 +16,6 @@ body {
 	background-color: #fff;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
-	line-height: 1.5;
 	color: #fff;
 	background-color: rgb(34, 34, 34);
 }
@@ -30,15 +32,33 @@ b {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5,
+h6 {
 	background: linear-gradient(90deg, rgba(10,255,18,1) 0%, rgba(0,197,255,1) 100%);
-	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
   font-size: 5rem;
+  font-weight: 600;
+}
+
+p,
+li,
+ol {
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 a {
 	color: #ffffff;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    border-bottom: 1px solid lime;
+  }
 }
 
 nav a {
@@ -69,7 +89,7 @@ img {
 
 code {
 	padding: 2px 5px;
-	background-color: #f2f2f2;
+	background-color: #000000;
 }
 
 pre {
