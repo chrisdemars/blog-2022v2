@@ -1,0 +1,40 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+	color: rgb(255, 255, 255);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	background: linear-gradient(90deg, rgba(10,255,18,1) 0%, rgba(0,197,255,1) 100%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+p,
+li,
+ol {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+a {
+	color: #ffffff;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    border-bottom: 1px solid lime;
+  }
+}
