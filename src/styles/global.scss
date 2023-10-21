@@ -6,18 +6,20 @@
 
 // Global Styles
 
+@import 'variables.scss';
 @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600;900&family=Didact+Gothic&display=swap');
 @import 'typography.scss';
 
 body {
-	font-family: 'Commissioner', sans-serif;	margin: auto;
+	font-family: 'Commissioner', sans-serif;
+	margin: auto;
 	padding: 20px;
-	max-width: 65ch;
+	// max-width: 65ch;
 	text-align: left;
-	background-color: #fff;
+	background-color: var(--clr-light);
 	word-wrap: break-word;
 	overflow-wrap: break-word;
-	color: #fff;
+	color: var(--clr-light);
 	background-color: rgb(34, 34, 34);
 }
 
@@ -56,13 +58,13 @@ pre {
 	padding: 1rem;
 }
 
-pre > code {
+pre>code {
 	all: unset;
 }
 
 blockquote {
 	border: 1px solid #999;
-	color: rgb(255, 255, 255);
+	color: var(--clr-light);
 	padding: 2px 0px 2px 20px;
 	margin: 0px;
 	font-style: italic;
