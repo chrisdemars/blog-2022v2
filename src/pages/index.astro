@@ -7,18 +7,18 @@ import MainSpeaking from '../components/MainSpeaking.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header title={SITE_TITLE} />
-		<main>
-			<h1>{SITE_TITLE}</h1>
-			<MainBio/>
-			<MainSpeaking />
-		</main>
-		<Footer />
-	</body>
+<!doctype html>
+<html lang='en'>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>{SITE_TITLE}</h1>
+      <MainBio />
+      <MainSpeaking />
+    </main>
+    <Footer />
+  </body>
 </html>
