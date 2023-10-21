@@ -20,5 +20,3 @@
 
   ## more info on configuring this file: https://docs.netlify.com/configure-builds/file-based-configuration/
 
-[build]
-command = "npm run build"  # This should match your actual build command
