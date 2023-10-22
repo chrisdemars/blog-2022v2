@@ -9,18 +9,30 @@
 @import 'variables.scss';
 @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600;900&family=Didact+Gothic&display=swap');
 @import 'typography.scss';
+@import 'header.scss';
+@import 'main-bio.scss';
+
+html {
+	box-sizing: border-box;
+	min-height: 100%;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
 
 body {
 	font-family: 'Commissioner', sans-serif;
-	margin: auto;
-	padding: 20px;
-	// max-width: 65ch;
-	text-align: left;
-	background-color: var(--clr-light);
-	word-wrap: break-word;
-	overflow-wrap: break-word;
 	color: var(--clr-light);
 	background-color: rgb(34, 34, 34);
+}
+
+main {
+	padding: 0 20px;
 }
 
 nav a {
