@@ -1,13 +1,29 @@
 ---
 layout: '../layouts/Page.astro'
-heroImage: '/headshot-color.png'
-title: 'About Me'
 ---
 
-# Title
+# Title 
 
-Hey I'm Chris, Senior Developer Advocate & Web Accessibility Specialist.
-
-My passion for the Web and the technologies that accompany it are ever growing. I love to look at code and great design and figure out how it all works. The common goal I try to achieve is to create, develop, and improve Web sites/applications making them not only visually appealing, but also great in function and usability. Teaching, learning, and problem solving are also characteristics I enjoy taking on, especially when it involves the Web. I am motivated to produce excellent results and expand my knowledge for my passion along the way.
-
-I also have a strong passion for usability, accessibility, and performance within the Web space and care about clean, well crafted code.
+I'm a seasoned Developer Advocate with a remarkable track record
+spanning two decades of technical expertise. An internationally recognized
+authority, I take the stage globally to champion the critical causes of web
+accessibility and CSS.
+<br />
+<br />
+Recognized for my unparalleled community contributions, I have achieved a
+distinguished array of accolades, including the prestigious Microsoft MVP award,
+Cloudinary Media Developer Expert, Auth0 Ambassador, and the title of Progress
+Ninja. These acknowledgments underscore my unwavering dedication to shaping the
+tech landscape.
+<br />
+<br />
+An inspirational advocate, educator, and speaker, my passion for web
+accessibility and modern CSS is evident in my dynamic presentations and
+workshops. My unwavering commitment to making the web a more inclusive space has
+solidified my position as a leading authority in the field.
+<br />
+<br />
+When I'm not immersed in the world of web development, I channel my creativity
+into crafting engaging blog posts, indulging in critiquing the artistry of
+Detroit Style pizza, and finding exhilaration in the captivating world of horror
+cinema.
